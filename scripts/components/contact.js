@@ -221,7 +221,7 @@ var BostonContact = (function () {
     }
   }
 
-  // Request unique session token ID via Drupal endpoint
+  // Request unique session token ID via Drupal endpoint - To DO
   function setToken() {
     Boston.request({
         url: '/rest/email_token/create',
